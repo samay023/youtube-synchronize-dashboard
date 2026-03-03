@@ -1,9 +1,8 @@
-import React from "react";
-
 interface Props extends React.IframeHTMLAttributes<HTMLIFrameElement> {
   videoId: string;
   title: string;
 }
+
 export const YoutubeVideoFrame = ({ videoId, title }: Props) => {
   return (
     <div>

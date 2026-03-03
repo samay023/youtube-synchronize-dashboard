@@ -7,6 +7,7 @@ First, run the development server:
 ```bash
 yarn install
 yarn setup
+yarn generate
 yarn migrate
 yarn dev
 

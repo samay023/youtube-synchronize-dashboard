@@ -1,6 +1,5 @@
-import { YoutubeVideoFrame } from "@/components/YoutubeVideoFrame";
+import { YoutubeVideoFrame } from "@/components/youtube-video-frame";
 import prisma from "@/prisma/client";
-import { useSearchParams } from "next/navigation";
 
 interface Props {
   params: {
